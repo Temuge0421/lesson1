@@ -1,3 +1,7 @@
+body {
+  background: url(img/forest1.jpg) no-repeat;
+  background-size: cover;
+}
 .nav_left{
     display: inline;
     margin-left: 30px;
@@ -9,7 +13,7 @@
     font-size: 33px;
     font-family: 'Pacifico', cursive;
 }
-.nav_right{
+.nav_right {
     float: right;
     font-size: 15px;
     font-weight: 600;
@@ -46,16 +50,16 @@ font-size: 16pt;
 .name {
 margin: auto;
 padding-top: 10px;
-padding-bottom: 10px;
+padding-bottom: 30px;
 width: 400px;
 background : 
-#414a4c;
+#90EE90;
 border: 1px soild 
 silver;
 }
 .mail h2 {
-margin-left: 38px;
-margin-top: 100px;
+margin-left: 50px;
+margin-top: 10px;
 }
 input {
 font-size: 20pt;
@@ -69,7 +73,7 @@ font-size: 12pt;
 }
 .rq {
 color: 
-#FF0000;
+#FFD700;
 font-size: 10pt;
 }
 .mail1 {
@@ -78,7 +82,7 @@ padding-top: 10px;
 padding-bottom: 10px;
 width: 400px;
 background : 
-#354230;
+#FFD700;
 border: 1px soild 
 silver;
 }
@@ -99,7 +103,7 @@ font-size: 12pt;
 }
 .rq {
 color: 
-#FF0000;
+#FFD700;
 font-size: 10pt;
 }
 .phone {
@@ -108,7 +112,7 @@ padding-top: 10px;
 padding-bottom: 10px;
 width: 400px;
 background : 
-#354230;
+#B0C4DE;
 border: 1px soild 
 silver;
 }
@@ -129,6 +133,6 @@ font-size: 12pt;
 }
 .rq {
 color: 
-#FF0000;
+#FFD700;
 font-size: 10pt;
 }
