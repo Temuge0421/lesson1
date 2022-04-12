@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(img/city.jpg) no-repeat;
+  background-size: cover;
+}
+header{
+    margin-top: 25px;
+}
+
+.nav_left{
+    display: inline;
+    margin-left: 30px;
+}
+.nav_left a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Pacifico', cursive;
+}
+.nav_right{
+    float: right;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-right: 30px;
+}
+.nav_right a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.nav_right a:hover{
+    background-color: #ffffff;
+    color: #ff8c69;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.nav_right :last-child{
+    padding: 10px 20px;
+    background-color: #242124;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+.class {
+  border: 10px outset black;
+  background-color: ghostwhite;    
+}
+
+#project{
+    height: 500px;
+}
+#project .row{
+    width: 80%;
+    margin: auto;
+}
+#project .column{
+    width: 31%;
+    height: 500px;
+    margin-top: 300px;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 10px;
+    float: right;
+    color: #fff0f5;
+}
+#project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 500px;
+}
+#project p{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+#project h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    margin-top: 5px;
+}
+#text h1{
+    font-family: 'Ariel';
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 75px;
+}
+#text p{
+    font-family: 'Ariel';
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 500px;
+    padding-top: 10px;
+}
+
+#mid {
+     margin: 0;
+     padding: 0;
+     background: url(img/white1.jpg) no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+
+#mid .column{
+    width: 60%;
+    height: 300px;
+    margin-top: 100px;
+    border: 1px solid rgb(162, 162, 162);
+    border-radius: 100px;
+    float: left;
+    color: #fff0f5;
+}
+#mid p{
+    font-family: 'Ariel';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+#mid h1{
+    font-size: 30px;
+    font-family: 'Ariel';
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 10px;
+}
