@@ -1,0 +1,219 @@
+body {
+  background: url(https://superdevresources.com/wp-content/uploads/2015/12/blurred2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.page {
+  margin: 20px 0
+}
+
+.page:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wrapper {
+  max-width: 1160px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+  min-height: 600px;
+}
+
+.content-wrapper {
+  float: left;
+  width: 100%;
+}
+
+.content {
+  margin-right: 320px;
+  clear: both;
+  overflow: auto;
+  background: #1abc9c;
+  background: rgba(26,188,156, 0.4);
+  min-height: 600px;
+}
+.content img{
+    padding-top: 100px;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.content h1{ 
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 50px;
+}
+.content p{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.sidebar h1{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 50px;
+}
+.sidebar p{
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+.sidebar {
+  position: relative;
+  width: 320px;
+  margin-left: -320px;
+  float: right;
+  overflow: hidden;
+  background: #2c3e50;
+  background: rgba(44,62,80, 0.4);
+  color: #eee;
+  min-height: 600px;
+}
+
+a{
+  display: block;
+  text-align:center;
+  margin: 10px auto;
+  width: 100%;
+  color: #2c3e50;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    margin-right: 0;
+  }
+}
+header{
+    margin-top: 25px;
+}
+.container-fluid{
+    font-size: 20px;
+}
+.navbar{
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    border: 5px outset black;
+    background-color: ghostwhite; 
+}
+.collapse{
+    padding-left: 715px;
+}
+#project{
+    height: 500px;
+}
+#project .row{
+    width: 90%;
+    margin: auto;
+    padding-left: 900px;
+}
+#project .column{
+    width: 100%;
+    height: 500px;
+    margin-top: 700px;
+    border: 10px solid rgb(162, 162, 162);
+    border-radius: 100px;
+    color: #fff0f5;
+}
+#project img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 500px;
+}
+#project p{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+}
+#project h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+    margin-top: 20px;
+}
+#text h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 700px;
+    padding-top: 50px;
+}
+#text p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 700px;
+}
+#mid {
+     margin: 0;
+     padding: 0;
+     background: url(img/white1.jpg) no-repeat;
+     background-size: cover;
+     height: 100vh;
+}
+
+#mid .column{
+    width: 60%;
+    height: 300px;
+    margin-top: 100px;
+    border: 10px solid rgb(162, 162, 162);
+    border-radius: 100px;
+    float: left;
+    color: #fff0f5;
+}
+#mid p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 30px;
+}
+#mid h1{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+
+#last .column{
+    width: 60%;
+    height: 300px;
+    margin-top: 50px;
+    border: 10px solid rgb(162, 162, 162);
+    border-radius: 100px;
+    float: left;
+    color: #fff0f5;
+}
+#last p{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 10px;
+}
+#last h1{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    color: #000000;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 10px;
+}
